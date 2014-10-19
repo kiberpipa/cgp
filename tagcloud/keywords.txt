@@ -1,0 +1,74 @@
+# Create a D3Cloud[1]-compatible word list with something like:
+#
+#     for n, w in map(lambda s: s.split(None, 1),
+#                     filter(lambda s: s.strip() and not s.startswith('#'),
+#                            open('keywords.txt'))):
+#         print int(3 + int(n)) * w,
+#
+# or Wordle[2]-compatible additionally with
+#
+#    +    print int(0 + int(n)) * w.replace(' ', '~'),
+#
+# The magic number is a "damping factor."
+#
+# [1]: http://www.jasondavies.com/wordcloud/
+# [2]: http://www.wordle.net/create
+
+1 3D printing
+1 aktivnost
+1 beer
+1 čaj
+3 delavnice
+1 digitalna umetnost
+1 druženje
+1 e-demokracija
+1 gobe
+2 GNU/Linux
+1 hackathons
+3 hacking
+1 hacktivizem
+1 hardware
+2 igre
+1 informacijska družba
+1 IRC
+1 IT
+1 joga
+2 mreženje
+1 napredek
+1 naravoslovje
+1 neodvisnost
+3 odprta koda
+1 open data
+1 pivo
+1 politika
+3 predavanja
+2 prostovoljstvo
+2 projekti
+1 računalniška znanost
+1 skupnost
+1 sodelovanje
+1 svoboda
+1 trajnost
+1 Unix
+1 varjenje piva
+1 varnost
+1 vodenje
+1 winning
+1 zabavna elektronika
+1 umetnost življenja
+1 znanost
+
+1 $
+1 %
+1 π
+1 ฿
+1 ࿕
+1 🔗
+1 #!
+1 💡
+1 🎥
+1 👀
+1 🔎
+1 🐧
+1 ♻
+1 ♛

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html mozNoMarginBoxes mozDisallowSelectionPrint>
+  <head>
+    <meta charset="utf-8"/>
+    <base href="{{ site.baseurl }}/"/>
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/a4.css"/>
+    {% if page.orientation == 'landscape' %}
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/a4landscape.css"/>
+    {% endif %}
+  </head>
+  <body>
+    {{ content }}
+  </body>
+</html>

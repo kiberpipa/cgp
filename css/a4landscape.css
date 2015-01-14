@@ -1,0 +1,18 @@
+
+.a4page {
+    max-height: 21cm;
+    width: 29.7cm;
+    padding: 2cm;  /* That's the page print margin */
+}
+
+@page {
+    size: A4 landscape;
+    margin: 0;
+}
+@media print {
+    html,
+    body {
+        height: 21cm;
+        width: 297mm;
+    }
+}

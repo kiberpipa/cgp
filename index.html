@@ -1,0 +1,35 @@
+---
+layout: default
+title: Kiberpipa CGP
+---
+
+<div>
+  <h1>CGP ipd.</h1>
+  <h2>Dokumenti</h2>
+  <ul>
+    {% for post in site.posts %}
+      <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  <h2>Grafične vsebine</h2>
+  <ul>
+    {% for file in site.static_files | sort: 'modified_time' %}
+      {% if file.extname contains '.svg' or file.extname contains '.pdf' %}
+      <li><a href="{{ site.baseurl }}{{ file.path }}">{{ file.path }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+  <ul class="images">
+    {% for file in site.static_files | sort: 'modified_time' %}
+      {% if file.extname contains '.png' %}
+      <li><img src="{{ site.baseurl }}{{ file.path }}"/></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
+
+<style>
+  img { max-width: 50%; max-height: 50%;}
+  ul.images { list-style-type: none; }
+  ul.images li { float: left; margin-right: 10px; }
+</style>

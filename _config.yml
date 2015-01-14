@@ -1,0 +1,8 @@
+name: Kiberpipa CGP
+baseurl: http://kiberpipa.github.io/cgp
+markdown: kramdown
+#~ kramdown: with this
+  #~ input: GFM it breaks a lot dunno
+    #~ best: not enable it
+
+

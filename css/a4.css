@@ -56,6 +56,9 @@ html, body {
   overflow: hidden;
   white-space: nowrap
 }
+.small-caps {
+  font-variant: small-caps
+}
 
 .center .logo {
   width: 50%;
@@ -86,4 +89,8 @@ table.pretty th {
 }
 table.pretty tr:nth-of-type(even) {
   background: #fafafa;
+}
+
+table.tpadding td {
+  padding: 1em;
 }

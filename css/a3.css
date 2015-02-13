@@ -1,0 +1,34 @@
+
+.a3page {
+    height: 42cm;
+    max-height: 42cm;
+    width: 29.7cm;
+    padding: 1.5cm 2cm;  /* That's the page print margin */
+    background: white;
+    margin: 0.5cm auto;
+    box-shadow: 0 0 .5cm rgba(0, 0, 0, 0.5);
+}
+
+@page {
+    size: A3;
+    margin: 0;
+}
+@media print {
+    html,
+    body {
+        height: 42cm;
+        width: 297mm;
+    }
+    .a3page {
+        margin: 0;
+        width: initial;
+        min-height: initial;
+        box-shadow: initial;
+        background: transparent;
+        page-break-after: always;
+        page-break-before: auto;
+        page-break-inside: avoid;
+        orphans: 0;
+        widows: 0;
+    }
+}

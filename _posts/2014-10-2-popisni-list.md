@@ -1,6 +1,6 @@
 ---
 title: Popisni list
-layout: a4
+layout: paper
 ---
 {::options parse_block_html="true" /}
 
@@ -96,4 +96,3 @@ oz. prek `www.kiberpipa.org/sl/support`{: .underline}.&nbsp; Hvala. `o/`
 | 57 |  |
 {: .pretty}
 </div>
-

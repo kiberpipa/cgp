@@ -1,6 +1,6 @@
 ---
 title: Kiberpipa ni gostinski obrat
-layout: a4
+layout: paper
 ---
 {::options parse_block_html="true" /}
 <div class="a4page justify">
@@ -55,4 +55,3 @@ Hvala.
 
 ![Kiberpipa](logo/kiberpipa-lezeci.svg){:.float-right}
 </div>
-

@@ -1,6 +1,6 @@
 ---
 title: Hackerspace Kiberpipa - Prost vstop
-layout: a4
+layout: paper
 orientation: landscape
 ---
 {::options parse_block_html="true" /}
@@ -18,4 +18,3 @@ PROST VSTOP
 `www.kiberpipa.org`
 {:.center .underline .font20}
 </div>
-

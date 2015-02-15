@@ -4,8 +4,14 @@
     <meta charset="utf-8"/>
     <base href="{{ site.baseurl }}/"/>
     <link rel="stylesheet" href="{{ site.baseurl }}/css/a4.css"/>
-    {% if page.orientation == 'landscape' %}
+    {% if page.size == 'a3' %}
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/a3.css"/>
+    {% endif %}
+    {% if page.orientation == 'landscape' and page.size != 'a3' %}
     <link rel="stylesheet" href="{{ site.baseurl }}/css/a4landscape.css"/>
+    {% endif %}
+    {% if page.orientation == 'landscape' and page.size == 'a3' %}
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/a3landscape.css"/>
     {% endif %}
   </head>
   <body>
